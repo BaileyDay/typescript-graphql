@@ -5,9 +5,13 @@
         "express": "^4.17.1"
     },
     "devDependencies": {
-        "nodemon": "^2.0.6"
+        "@types/express": "^4.17.9",
+        "@types/node": "^14.14.14",
+        "nodemon": "^2.0.6",
+        "ts-node": "^9.1.1",
+        "typecript": "^0.0.1-security"
     },
     "scripts": {
-        "start": "nodemon src/index.js"
+        "start": "nodemon src/index.ts"
     }
 }
